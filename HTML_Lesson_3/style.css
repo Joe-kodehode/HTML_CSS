@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: blue;
+}
+
+.green-text {
+  color: green;
+}
+
+.red-text {
+  color: red;
+}
+
+.keyboard {
+  border: solid black 1px;
+  padding: 3px 7px;
+  box-shadow: 2px 2px darkgrey;
+}
+
+body {
+  width: 100vw;
+}
+
+.box {
+  margin: 0 auto;
+  display: inline-block;
+  background-color: lightblue;
+  width: 88px;
+  height: 88px;
+  padding: 5px;
+
+  /* border-shorthand */
+  border: solid 1px black;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.content {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  margin: auto;
+}

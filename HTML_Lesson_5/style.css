@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+ul {
+  text-align: center;
+  /* list-style-type: none;
+  list-style-position: inside; */
+  /* list-style-image: url(Images/Icon.jpg); */
+  /* list-style shorthand: type, position, image */
+  list-style: none;
+}
+
+ol {
+  color: blue;
+  border: 1px solid red;
+}
+
+section {
+  height: 100vh;
+  overflow: scroll;
+}
+
+section:nth-child(even) {
+  background-color: grey;
+}
+
+ul {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  color: red;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  gap: 5px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  padding: 5px 10px;
+  height: 50px;
+  width: 100px;
+}
+
+li:hover {
+  border: 2px solid blue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  /* cursor: default; */
+}

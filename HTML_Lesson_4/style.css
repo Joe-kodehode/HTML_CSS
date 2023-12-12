@@ -1,0 +1,58 @@
+h1 {
+  color: green;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.yellow-bg {
+  background-color: yellow;
+}
+
+.grey-box {
+  display: inline-block;
+  background-color: gray;
+  padding: 30px 20px;
+  margin: 0 0 5px 0;
+  border: black 3px solid;
+  color: white;
+}
+
+#logo {
+  height: 40px;
+  margin: 20px;
+}
+
+nav {
+  background-color: red;
+}
+
+.nav-item {
+  display: inline-block;
+  background-color: lightcoral;
+  padding: 10px 20px;
+}
+
+.logo-div {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+#side-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-evenly;
+  align-items: start;
+  align-content: end;
+  border: 2px solid red;
+}
+
+.menu-item {
+  background-color: lightblue;
+  padding: 10px 20px;
+}
