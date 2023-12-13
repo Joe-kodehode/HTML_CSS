@@ -1,0 +1,57 @@
+/* #box {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  left: 50px;
+  border: 2px solid red;
+}
+
+#box2 {
+  position: relative;
+  bottom: 40px;
+  border: 2px solid red;
+  height: 50px;
+  width: 50px;
+  background-color: black;
+} */
+
+nav {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  gap: 5px;
+  /* overflow: hidden; */
+}
+
+.nav-item {
+  position: relative;
+  background-color: lightcoral;
+  padding: 10px 20px;
+}
+
+bdo {
+  direction: rtl;
+}
+
+#backgrounds {
+  border: 1px solid red;
+  height: 100vh;
+  /* 
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; */
+  /* background-image: linear-gradient(#a24a4a, #9198e5); */
+
+  background: rgba(255, 255, 255, 0.5)
+    url(https://images.unsplash.com/photo-1682687982049-b3d433368cd1?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+    no-repeat center center fixed;
+  /* Adjust the alpha value (0.0 to 1.0) for transparency and replace 'your-image-url.jpg' with the path to your image */
+  background-size: cover; /* Adjust as needed */
+
+  /* background-image: url(https://images.unsplash.com/photo-1682687982049-b3d433368cd1?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.5;
+  color: rgba(255, 0, 0, 1); */
+}
